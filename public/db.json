@@ -1,0 +1,1153 @@
+{
+    "status": true,
+    "message": "Patient report list.",
+    "data": [
+        {
+            "id": "136",
+            "lab_uid": "6639C00342DCB",
+            "center_uid": "6639C00342DCB",
+            "lab_center_name": "Star Labs",
+            "center_address": "Street",
+            "patient_uid": "664B0984B912F",
+            "report_uid": "667FF3E6D05A5",
+            "report_status": "INPROGRESS",
+            "test": [
+                "65F7FFACE5B7A",
+                "65F7FFAD9C37C"
+            ],
+            "outlabtest": "[]",
+            "department": "667FF32B8AA01",
+            "referred_by": "667FF3B475473",
+            "time_of_booking": "17:15",
+            "appointment_remark": "",
+            "report_value": [
+                {
+                    "test_uid": "65F7FFACE5B7A",
+                    "parameter_uid": "65E6D6F49F268",
+                    "value": "0.5"
+                }
+            ],
+            "important": "0",
+            "in_trash": "0",
+            "created_at": "2024-06-29 11:45:42",
+            "updated_at": "2024-07-05 15:38:21",
+            "refferer_details": {
+                "id": "13",
+                "lab_uid": "6639C00342DCB",
+                "doctor_uid": "667FF3B475473",
+                "doctor_name": "Satish",
+                "degree": "MBBS",
+                "mobile": "8817591137",
+                "address": "Ghari Chowk",
+                "commision": "0",
+                "area": "667FF3238E5D7",
+                "created_at": "2024-06-29 11:44:52"
+            },
+            "patient_details": {
+                "id": "92",
+                "lab_uid": "6639C00342DCB",
+                "lab_name": "Star Labs",
+                "center_uid": "6639C00342DCB",
+                "lab_center_name": "Star Labs",
+                "relation_uid": null,
+                "patient_uid": "664B0984B912F",
+                "has_abha_uid": "0",
+                "abha_uid": null,
+                "patient_name": "Mr. V Satish",
+                "mobile": "8817591137",
+                "gender": "male",
+                "dob": "2001-08-09",
+                "age": "22",
+                "state": "Chandigarh",
+                "district": "Chandigarh",
+                "city": "Gudhiyari",
+                "pincode": "560102",
+                "street_address": "Near St. Xavier's School",
+                "created_at": "2024-06-29 11:45:42"
+            },
+            "sample_collection_details": {
+                "id": "82",
+                "lab_uid": "6639C00342DCB",
+                "patient_uid": "664B0984B912F",
+                "transaction_uid": "667FF3E6D06E8",
+                "report_uid": "667FF3E6D05A5",
+                "tests": "{\"65F7FFACE5B7A\":true,\"65F7FFAD9C37C\":true}",
+                "created_at": "2024-06-29 11:45:42",
+                "updated_at": "2024-07-04 11:30:11"
+            },
+            "allSampleCollected": true,
+            "testDetails": [
+                {
+                    "id": "370",
+                    "lab_uid": "6639C00342DCB",
+                    "partner_uid": "65D5B832E4DC2",
+                    "test_uid": "65F7FFACE5B7A",
+                    "parameter_uid": "65E6D6F49F268",
+                    "testname": "HIV DUO Ultra Elisa Vth Generation",
+                    "parameter": "HIV Ab Elisa Vth Generation",
+                    "test_footer": null,
+                    "parameter_footer": null,
+                    "parameter_units": "S/CO",
+                    "parameter_method": null,
+                    "parameter_sample": null,
+                    "ref_range": [
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "M",
+                            "normalrange": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0",
+                            "paniclow": "0",
+                            "panichigh": "100",
+                            "default": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0"
+                        },
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "F",
+                            "normalrange": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0",
+                            "paniclow": "0",
+                            "panichigh": "0",
+                            "default": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0"
+                        }
+                    ],
+                    "param_price": "0",
+                    "test_price": "0",
+                    "loinc": "95524-5",
+                    "loinc_class": "Microbiology",
+                    "long_common_name": "HIV 1 and 2 Ab [Identifier] in Serum or Plasma by Immunoassay",
+                    "short_name": "HIV 1 & 2 Ab SerPl IA",
+                    "display_name": "HIV 1 and 2 Ab IA Nom",
+                    "consumer_name": "HIV 1 and 2 antibody, Blood",
+                    "created_at": "2024-06-24 07:12:54",
+                    "param": [
+                        {
+                            "id": "370",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFACE5B7A",
+                            "parameter_uid": "65E6D6F49F268",
+                            "testname": "HIV DUO Ultra Elisa Vth Generation",
+                            "parameter": "HIV Ab Elisa Vth Generation",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "S/CO",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0",
+                                    "paniclow": "0",
+                                    "panichigh": "100",
+                                    "default": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0",
+                                    "paniclow": "0",
+                                    "panichigh": "0",
+                                    "default": "Non-reactive <1.0                                           Grey zone >0.9-<1.0                                            Reactive >1.0"
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "95524-5",
+                            "loinc_class": "Microbiology",
+                            "long_common_name": "HIV 1 and 2 Ab [Identifier] in Serum or Plasma by Immunoassay",
+                            "short_name": "HIV 1 & 2 Ab SerPl IA",
+                            "display_name": "HIV 1 and 2 Ab IA Nom",
+                            "consumer_name": "HIV 1 and 2 antibody, Blood",
+                            "created_at": "2024-06-24 07:12:54"
+                        }
+                    ]
+                },
+                {
+                    "id": "222",
+                    "lab_uid": "6639C00342DCB",
+                    "partner_uid": "65D5B832E4DC2",
+                    "test_uid": "65F7FFAD9C37C",
+                    "parameter_uid": "65E6D6F49F2AA",
+                    "testname": "LFT-Liver Function Test ",
+                    "parameter": "A/G Ratio",
+                    "test_footer": null,
+                    "parameter_footer": null,
+                    "parameter_units": "%",
+                    "parameter_method": null,
+                    "parameter_sample": null,
+                    "ref_range": [
+                        {
+                            "dayfrom": "0",
+                            "dayto": "8740",
+                            "gender": "M",
+                            "normalrange": "0-10",
+                            "paniclow": "0",
+                            "panichigh": "10",
+                            "default": ""
+                        }
+                    ],
+                    "param_price": "0",
+                    "test_price": "0",
+                    "loinc": "1759-0",
+                    "loinc_class": "Chemistry",
+                    "long_common_name": "Albumin/Globulin [Mass Ratio] in Serum or Plasma",
+                    "short_name": "Albumin/Glob SerPl",
+                    "display_name": "Albumin/Globulin [Mass ratio]",
+                    "consumer_name": "Albumin/Globulin, Blood",
+                    "created_at": "2024-06-03 16:34:50",
+                    "param": [
+                        {
+                            "id": "222",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2AA",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "A/G Ratio",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "%",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "8740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1759-0",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Albumin/Globulin [Mass Ratio] in Serum or Plasma",
+                            "short_name": "Albumin/Glob SerPl",
+                            "display_name": "Albumin/Globulin [Mass ratio]",
+                            "consumer_name": "Albumin/Globulin, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "223",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2AD",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Albumin",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "g/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1751-7",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Albumin [Mass/volume] in Serum or Plasma",
+                            "short_name": "Albumin SerPl-mCnc",
+                            "display_name": "Albumin [Mass/Vol]",
+                            "consumer_name": "Albumin, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "224",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2B7",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Alkaline Phosphatase",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "U/L",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "6768-6",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+                            "short_name": "ALP SerPl-cCnc",
+                            "display_name": "ALP [Catalytic activity/Vol]",
+                            "consumer_name": "Alkaline phosphatase, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "225",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2C6",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Bilirubin - Direct",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1968-7 ",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.direct [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub Direct SerPl-mCnc",
+                            "display_name": "Bilirubin.direct [Mass/Vol]",
+                            "consumer_name": "Bilirubin.direct, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "226",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2CC",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Bilirubin - Indirect",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1971-1 ",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.indirect [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub Indirect SerPl-mCnc",
+                            "display_name": "Bilirubin.indirect [Mass/Vol]",
+                            "consumer_name": "Bilirubin.indirect, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "227",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2D1",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Bilirubin - Total",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1975-2",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub SerPl-mCnc",
+                            "display_name": "Bilirubin [Mass/Vol]",
+                            "consumer_name": "Bilirubin, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "228",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2D6",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Globulin",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "g/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "2336-6",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Globulin [Mass/volume] in Serum",
+                            "short_name": "Globulin Ser-mCnc",
+                            "display_name": "Globulin (S) [Mass/Vol]",
+                            "consumer_name": "Globulin, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "229",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2D9",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "SGOT (AST)",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "U/L",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1920-8",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                            "short_name": "AST SerPl-cCnc",
+                            "display_name": "AST [Catalytic activity/Vol]",
+                            "consumer_name": "Aspartate Aminotransferase (AST; SGOT), Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "230",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2DD",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "SGPT (ALT)",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "U/L",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "1742-6",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+                            "short_name": "ALT SerPl-cCnc",
+                            "display_name": "ALT [Catalytic activity/Vol]",
+                            "consumer_name": "Alanine Aminotransferase (ALT; SGPT), Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        },
+                        {
+                            "id": "231",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAD9C37C",
+                            "parameter_uid": "65E6D6F49F2E0",
+                            "testname": "LFT-Liver Function Test ",
+                            "parameter": "Total Proteins",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "g/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "8740",
+                                    "gender": "M",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": ""
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "5740",
+                                    "gender": "F",
+                                    "normalrange": "0-10",
+                                    "paniclow": "0",
+                                    "panichigh": "10",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "0",
+                            "loinc": "2885-2",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Protein [Mass/volume] in Serum or Plasma",
+                            "short_name": "Prot SerPl-mCnc",
+                            "display_name": "Protein [Mass/Vol]",
+                            "consumer_name": "Protein, Blood",
+                            "created_at": "2024-06-03 16:34:50"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "137",
+            "lab_uid": "6639C00342DCB",
+            "center_uid": "6639C00342DCB",
+            "lab_center_name": "Star Labs",
+            "center_address": "Street",
+            "patient_uid": "667FF41D8291F",
+            "report_uid": "667FF41D82AD6",
+            "report_status": "COMPLETED",
+            "test": [
+                "65F7FFAC70578",
+                "65F7FFAC5B31F"
+            ],
+            "outlabtest": "[]",
+            "department": "667FF32B8AA01",
+            "referred_by": "SELF",
+            "time_of_booking": "17:15",
+            "appointment_remark": "",
+            "report_value": [
+                {
+                    "test_uid": "65F7FFAC70578",
+                    "parameter_uid": "65E6D6F49F1A4",
+                    "value": "0.3"
+                },
+                {
+                    "test_uid": "65F7FFAC70578",
+                    "parameter_uid": "65E6D6F49F1AA",
+                    "value": "0.5"
+                },
+                {
+                    "test_uid": "65F7FFAC70578",
+                    "parameter_uid": "65E6D6F49F1B0",
+                    "value": "1"
+                },
+                {
+                    "test_uid": "65F7FFAC5B31F",
+                    "parameter_uid": "65E6D6F49F185",
+                    "value": "7"
+                }
+            ],
+            "important": "0",
+            "in_trash": "0",
+            "created_at": "2024-06-29 11:46:37",
+            "updated_at": "2024-06-29 17:26:46",
+            "refferer_details": [],
+            "patient_details": {
+                "id": "93",
+                "lab_uid": "6639C00342DCB",
+                "lab_name": "Star Labs",
+                "center_uid": "6639C00342DCB",
+                "lab_center_name": "Star Labs",
+                "relation_uid": null,
+                "patient_uid": "667FF41D8291F",
+                "has_abha_uid": "0",
+                "abha_uid": null,
+                "patient_name": "Mr. V. Harish",
+                "mobile": "7389512584",
+                "gender": "male",
+                "dob": "1998-09-08",
+                "age": "25",
+                "state": "Arunachal Pradesh",
+                "district": "East Kameng",
+                "city": "Gudhiyari",
+                "pincode": "560102",
+                "street_address": "Near St. Xavier's School",
+                "created_at": "2024-06-29 11:46:37"
+            },
+            "sample_collection_details": {
+                "id": "83",
+                "lab_uid": "6639C00342DCB",
+                "patient_uid": "667FF41D8291F",
+                "transaction_uid": "667FF41D82BB5",
+                "report_uid": "667FF41D82AD6",
+                "tests": "{\"65F7FFAC70578\":false,\"65F7FFAC5B31F\":false}",
+                "created_at": "2024-06-29 11:46:37",
+                "updated_at": "2024-06-29 17:17:27"
+            },
+            "allSampleCollected": false,
+            "testDetails": [
+                {
+                    "id": "6",
+                    "lab_uid": "6639C00342DCB",
+                    "partner_uid": "65D5B832E4DC2",
+                    "test_uid": "65F7FFAC70578",
+                    "parameter_uid": "65E6D6F49F1A4",
+                    "testname": "Bilirubin Total Direct and Indirect",
+                    "parameter": "Bilirubin - Direct",
+                    "test_footer": "<p>TESTINGG</p>\n",
+                    "parameter_footer": "<p>TESTING</p>\n",
+                    "parameter_units": "mg/dl",
+                    "parameter_method": null,
+                    "parameter_sample": null,
+                    "ref_range": [
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "M",
+                            "normalrange": "0 - 0.4",
+                            "paniclow": "0",
+                            "panichigh": "0.4",
+                            "default": "0 - 0.4"
+                        },
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "F",
+                            "normalrange": "0 - 0.4",
+                            "paniclow": "0",
+                            "panichigh": "0.4",
+                            "default": "0 - 0.4"
+                        }
+                    ],
+                    "param_price": "0",
+                    "test_price": "800",
+                    "loinc": "1968-7",
+                    "loinc_class": "Chemistry",
+                    "long_common_name": "Bilirubin.direct [Mass/volume] in Serum or Plasma",
+                    "short_name": "Bilirub Direct SerPl-mCnc",
+                    "display_name": "Bilirubin.direct [Mass/Vol]",
+                    "consumer_name": "Bilirubin.direct, Blood",
+                    "created_at": "2024-05-07 05:50:32",
+                    "param": [
+                        {
+                            "id": "6",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAC70578",
+                            "parameter_uid": "65E6D6F49F1A4",
+                            "testname": "Bilirubin Total Direct and Indirect",
+                            "parameter": "Bilirubin - Direct",
+                            "test_footer": "<p>TESTINGG</p>\n",
+                            "parameter_footer": "<p>TESTING</p>\n",
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "0 - 0.4",
+                                    "paniclow": "0",
+                                    "panichigh": "0.4",
+                                    "default": "0 - 0.4"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "0 - 0.4",
+                                    "paniclow": "0",
+                                    "panichigh": "0.4",
+                                    "default": "0 - 0.4"
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "800",
+                            "loinc": "1968-7",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.direct [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub Direct SerPl-mCnc",
+                            "display_name": "Bilirubin.direct [Mass/Vol]",
+                            "consumer_name": "Bilirubin.direct, Blood",
+                            "created_at": "2024-05-07 05:50:32"
+                        },
+                        {
+                            "id": "7",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAC70578",
+                            "parameter_uid": "65E6D6F49F1AA",
+                            "testname": "Bilirubin Total Direct and Indirect",
+                            "parameter": "Bilirubin - Indirect",
+                            "test_footer": "<p>TESTINGG</p>\n",
+                            "parameter_footer": null,
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "0 - 1 ",
+                                    "paniclow": "0",
+                                    "panichigh": "1",
+                                    "default": "0 - 1 "
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "0 - 1 ",
+                                    "paniclow": "0",
+                                    "panichigh": "1",
+                                    "default": "0 - 1 "
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "800",
+                            "loinc": "1971-1",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.indirect [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub Indirect SerPl-mCnc",
+                            "display_name": "Bilirubin.indirect [Mass/Vol]",
+                            "consumer_name": "Bilirubin.indirect, Blood",
+                            "created_at": "2024-05-07 05:50:32"
+                        },
+                        {
+                            "id": "8",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAC70578",
+                            "parameter_uid": "65E6D6F49F1B0",
+                            "testname": "Bilirubin Total Direct and Indirect",
+                            "parameter": "Bilirubin - Total",
+                            "test_footer": "<p>TESTINGG</p>\n",
+                            "parameter_footer": null,
+                            "parameter_units": "mg/dl",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "0.0 - 2.0",
+                                    "paniclow": "0.0",
+                                    "panichigh": "2.0",
+                                    "default": "0.0 - 2.0"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "0.0 - 2.0",
+                                    "paniclow": "0.0",
+                                    "panichigh": "2.0",
+                                    "default": "0.0 - 2.0"
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "800",
+                            "loinc": "1975-2",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+                            "short_name": "Bilirub SerPl-mCnc",
+                            "display_name": "Bilirubin [Mass/Vol]",
+                            "consumer_name": "Bilirubin, Blood",
+                            "created_at": "2024-05-07 05:50:32"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "lab_uid": "6639C00342DCB",
+                    "partner_uid": "65D5B832E4DC2",
+                    "test_uid": "65F7FFAC5B31F",
+                    "parameter_uid": "65E6D6F49F185",
+                    "testname": "HbA1C-Glycosylated Haemoglobin",
+                    "parameter": "HbA1C-Glycosylated Haemoglobin, blood by HPLC method",
+                    "test_footer": null,
+                    "parameter_footer": null,
+                    "parameter_units": "%",
+                    "parameter_method": null,
+                    "parameter_sample": null,
+                    "ref_range": [
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "M",
+                            "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                            "paniclow": "4",
+                            "panichigh": "6",
+                            "default": "Glycemic targets for Nonpregnant Adults\t     \t      5 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control"
+                        },
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "F",
+                            "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                            "paniclow": "4",
+                            "panichigh": "6",
+                            "default": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control"
+                        },
+                        {
+                            "dayfrom": "0",
+                            "dayto": "36500",
+                            "gender": "M",
+                            "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                            "paniclow": "4",
+                            "panichigh": "6",
+                            "default": null
+                        }
+                    ],
+                    "param_price": "0",
+                    "test_price": "1000",
+                    "loinc": "17856-6",
+                    "loinc_class": "Chemistry",
+                    "long_common_name": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+                    "short_name": "HbA1c MFr Bld HPLC",
+                    "display_name": "HbA1c HPLC (Bld) [Mass fraction]",
+                    "consumer_name": "HbA1c/Total Hgb, Blood",
+                    "created_at": "2024-05-07 05:50:30",
+                    "param": [
+                        {
+                            "id": "1",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFAC5B31F",
+                            "parameter_uid": "65E6D6F49F185",
+                            "testname": "HbA1C-Glycosylated Haemoglobin",
+                            "parameter": "HbA1C-Glycosylated Haemoglobin, blood by HPLC method",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "%",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                                    "paniclow": "4",
+                                    "panichigh": "6",
+                                    "default": "Glycemic targets for Nonpregnant Adults\t     \t      5 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                                    "paniclow": "4",
+                                    "panichigh": "6",
+                                    "default": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "36500",
+                                    "gender": "M",
+                                    "normalrange": "Glycemic targets for Nonpregnant Adults\t     \t      6 to 7%  Excellent control\t       7 to 8%  Good control                              Above 9% Unsatisfactory control",
+                                    "paniclow": "4",
+                                    "panichigh": "6",
+                                    "default": null
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "1000",
+                            "loinc": "17856-6",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC",
+                            "short_name": "HbA1c MFr Bld HPLC",
+                            "display_name": "HbA1c HPLC (Bld) [Mass fraction]",
+                            "consumer_name": "HbA1c/Total Hgb, Blood",
+                            "created_at": "2024-05-07 05:50:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "138",
+            "lab_uid": "6639C00342DCB",
+            "center_uid": "6639C00342DCB",
+            "lab_center_name": "Star Labs",
+            "center_address": "Street",
+            "patient_uid": "667FF8F722D4B",
+            "report_uid": "667FF8F723729",
+            "report_status": "COMPLETED",
+            "test": [
+                "65F7FFACACA6C"
+            ],
+            "outlabtest": "[]",
+            "department": "667FF32B8AA01",
+            "referred_by": "667FF3B475473",
+            "time_of_booking": "17:36",
+            "appointment_remark": "",
+            "report_value": [
+                {
+                    "test_uid": "65F7FFACACA6C",
+                    "parameter_uid": "65E6D6F49F1F9",
+                    "value": "200"
+                }
+            ],
+            "important": "0",
+            "in_trash": "0",
+            "created_at": "2024-06-29 12:07:19",
+            "updated_at": "2024-06-29 17:37:42",
+            "refferer_details": {
+                "id": "13",
+                "lab_uid": "6639C00342DCB",
+                "doctor_uid": "667FF3B475473",
+                "doctor_name": "Satish",
+                "degree": "MBBS",
+                "mobile": "8817591137",
+                "address": "Ghari Chowk",
+                "commision": "0",
+                "area": "667FF3238E5D7",
+                "created_at": "2024-06-29 11:44:52"
+            },
+            "patient_details": {
+                "id": "94",
+                "lab_uid": "6639C00342DCB",
+                "lab_name": "Star Labs",
+                "center_uid": "6639C00342DCB",
+                "lab_center_name": "Star Labs",
+                "relation_uid": "664B0984B912F",
+                "patient_uid": "667FF8F722D4B",
+                "has_abha_uid": "0",
+                "abha_uid": null,
+                "patient_name": "Mr. K Satish",
+                "mobile": "8817591137",
+                "gender": "male",
+                "dob": "2001-09-08",
+                "age": "22",
+                "state": "Chandigarh",
+                "district": "Chandigarh",
+                "city": "Gudhiyari",
+                "pincode": "560102",
+                "street_address": "Near St. Xavier's School",
+                "created_at": "2024-06-29 12:07:19"
+            },
+            "sample_collection_details": {
+                "id": "84",
+                "lab_uid": "6639C00342DCB",
+                "patient_uid": "667FF8F722D4B",
+                "transaction_uid": "667FF8F72383D",
+                "report_uid": "667FF8F723729",
+                "tests": "{\"65F7FFACACA6C\":false}",
+                "created_at": "2024-06-29 12:07:19",
+                "updated_at": null
+            },
+            "allSampleCollected": false,
+            "testDetails": [
+                {
+                    "id": "17",
+                    "lab_uid": "6639C00342DCB",
+                    "partner_uid": "65D5B832E4DC2",
+                    "test_uid": "65F7FFACACA6C",
+                    "parameter_uid": "65E6D6F49F1F9",
+                    "testname": "CPK-NAC",
+                    "parameter": "CPK-NAC",
+                    "test_footer": null,
+                    "parameter_footer": null,
+                    "parameter_units": "U/L",
+                    "parameter_method": null,
+                    "parameter_sample": null,
+                    "ref_range": [
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "M",
+                            "normalrange": "25 - 200",
+                            "paniclow": "25",
+                            "panichigh": "200",
+                            "default": "25 - 200"
+                        },
+                        {
+                            "dayfrom": "0",
+                            "dayto": "54750",
+                            "gender": "F",
+                            "normalrange": "25 - 200",
+                            "paniclow": "25",
+                            "panichigh": "200",
+                            "default": "25 - 200"
+                        }
+                    ],
+                    "param_price": "0",
+                    "test_price": "450",
+                    "loinc": "2157-6",
+                    "loinc_class": "Chemistry",
+                    "long_common_name": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+                    "short_name": "CK SerPl-cCnc",
+                    "display_name": "CK [Catalytic activity/Vol]",
+                    "consumer_name": "Creatine Kinase (CK), Blood",
+                    "created_at": "2024-05-07 05:50:42",
+                    "param": [
+                        {
+                            "id": "17",
+                            "lab_uid": "6639C00342DCB",
+                            "partner_uid": "65D5B832E4DC2",
+                            "test_uid": "65F7FFACACA6C",
+                            "parameter_uid": "65E6D6F49F1F9",
+                            "testname": "CPK-NAC",
+                            "parameter": "CPK-NAC",
+                            "test_footer": null,
+                            "parameter_footer": null,
+                            "parameter_units": "U/L",
+                            "parameter_method": null,
+                            "parameter_sample": null,
+                            "ref_range": [
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "M",
+                                    "normalrange": "25 - 200",
+                                    "paniclow": "25",
+                                    "panichigh": "200",
+                                    "default": "25 - 200"
+                                },
+                                {
+                                    "dayfrom": "0",
+                                    "dayto": "54750",
+                                    "gender": "F",
+                                    "normalrange": "25 - 200",
+                                    "paniclow": "25",
+                                    "panichigh": "200",
+                                    "default": "25 - 200"
+                                }
+                            ],
+                            "param_price": "0",
+                            "test_price": "450",
+                            "loinc": "2157-6",
+                            "loinc_class": "Chemistry",
+                            "long_common_name": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+                            "short_name": "CK SerPl-cCnc",
+                            "display_name": "CK [Catalytic activity/Vol]",
+                            "consumer_name": "Creatine Kinase (CK), Blood",
+                            "created_at": "2024-05-07 05:50:42"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
