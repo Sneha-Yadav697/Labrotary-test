@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0rem;
+
+}
+
+.container{
+  display: flex;
+  padding-top: 5rem ;
+}
+.line {
+background-color: black;
+width: .1px;
+height: 100vh;
+
+}
+.form{
+  padding: 0 50px ;
+  color: gray;
+  line-height: 2rem;
+}
+.duration{
+  display: flex;
+  gap: 10px;
+
+}
+.duration input{
+  padding: 10px;
+  width: 9rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+
+
+}
+.form-details{
+  padding:  5px 0;
+
+}
+.form-details h3{
+  margin: 0 18px ;
+
+ 
+}
+.form-details div{
+  line-height: 1.8rem;
+  margin: 10px 0;
+
+}
+.form-details input{
+  padding: 10px ;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 20rem;
+
+}
+
+.btn{
+ margin:10px 0;
+ padding: 10px 50px;
+ background-color: rgb(53, 134, 177);
+ color: white;
+ border-radius: 5px;
+ border-style: none;
+
+
+  
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 0px 10px;
+  font-size: 0.9em;
+  width: 100vw;
+
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #979797;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+i{
+  cursor: pointer;
+margin:0 15px ;
+}
+
